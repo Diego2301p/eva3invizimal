@@ -1,0 +1,126 @@
+{
+  "models": [
+    {
+      "name": "Fire Dragon",
+      "folder": "firedragon3",
+      "format": "OBJ",
+      "geometry": "firedragon3.obj"
+    },
+    {
+      "name": "Chupacabras",
+      "folder": "chupacabra3",
+      "format": "OBJ",
+      "geometry": "chupacabra3.obj"
+    },
+    {
+      "name": "Dark Tigershark",
+      "folder": "dark_tiger",
+      "format": "FBX",
+      "geometry": "DarkTiger.fbx",
+      "note": "User-supplied file is named dark-tigershark-fanart.zip; verify that it depicts intended Dark Tiger"
+    },
+    {
+      "name": "Uber Jackal",
+      "folder": "jackal3",
+      "format": "OBJ",
+      "geometry": "jackal3.obj"
+    }
+  ],
+  "model_files": [
+    {
+      "file": "Models/chupacabra3/chupacabra3.mtl",
+      "bytes": 103
+    },
+    {
+      "file": "Models/chupacabra3/chupacabra3.obj",
+      "bytes": 449833
+    },
+    {
+      "file": "Models/chupacabra3/chupacabra3_alpha_1024.png",
+      "bytes": 29785
+    },
+    {
+      "file": "Models/chupacabra3/chupacabra3_bottom.png",
+      "bytes": 5816
+    },
+    {
+      "file": "Models/chupacabra3/chupacabra3_diffuse_1024.png",
+      "bytes": 991085
+    },
+    {
+      "file": "Models/dark_tiger/DarkTiger.fbx",
+      "bytes": 2531632
+    },
+    {
+      "file": "Models/dark_tiger/DarkTiger_Albedo_2K.png",
+      "bytes": 5414315
+    },
+    {
+      "file": "Models/dark_tiger/DarkTiger_Metallic.png",
+      "bytes": 2152
+    },
+    {
+      "file": "Models/dark_tiger/DarkTiger_Normal_2K.png",
+      "bytes": 7322523
+    },
+    {
+      "file": "Models/dark_tiger/DarkTiger_Roughness_2K.png",
+      "bytes": 2665124
+    },
+    {
+      "file": "Models/firedragon3/firedragon3.mtl",
+      "bytes": 103
+    },
+    {
+      "file": "Models/firedragon3/firedragon3.obj",
+      "bytes": 514232
+    },
+    {
+      "file": "Models/firedragon3/firedragon3_alpha_1024.png",
+      "bytes": 10100
+    },
+    {
+      "file": "Models/firedragon3/firedragon3_bottom.png",
+      "bytes": 2364
+    },
+    {
+      "file": "Models/firedragon3/firedragon3_diffuse_1024.png",
+      "bytes": 938327
+    },
+    {
+      "file": "Models/jackal3/jackal3.mtl",
+      "bytes": 95
+    },
+    {
+      "file": "Models/jackal3/jackal3.obj",
+      "bytes": 460980
+    },
+    {
+      "file": "Models/jackal3/jackal3_alpha_1024.png",
+      "bytes": 11840
+    },
+    {
+      "file": "Models/jackal3/jackal3_bottom.png",
+      "bytes": 2307
+    },
+    {
+      "file": "Models/jackal3/jackal3_diffuse_1024.png",
+      "bytes": 959268
+    }
+  ],
+  "targets_added": 8,
+  "pending": [
+    "Comprobar que Unity compile todos los modelos y scripts",
+    "Probar deteccion de las ocho caras en un Android compatible"
+  ],
+  "interfaz_v7": {
+    "tipos": {
+      "048": "Fuego",
+      "081": "Arena",
+      "132": "Selva",
+      "099": "Arena"
+    },
+    "graficos": "Vida verde y daño rojo; rango 0–1000",
+    "layout": "Perfil e Historia, foto enmarcada y descripcion al lado"
+  }
+}

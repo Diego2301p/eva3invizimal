@@ -1,0 +1,23 @@
+INVIZIMALS RA V8 - MODO EVALUACION ESTABLE (ANCLA UNA VEZ)
+
+1. Abrir esta carpeta de proyecto en Unity Hub con Unity 6000.0.74f1.
+2. En Unity, menu Invizimals V8 Corregida > 2 - Generar escena limpia y configuracion AR.
+   Es imprescindible regenerar la escena porque el ZIP no trae escena precompilada.
+3. Entrar a XR Origin y revisar AR Tracked Image Manager activado, biblioteca de 9 imagenes.
+4. Guardar, activar Android y compilar con la opcion 5 del mismo menu.
+5. Instalar APK; enfocar una sola carta sobre mesa mate y no moverla durante la prueba.
+
+QUE CAMBIO
+- En Modo EVALUACION el modelo se coloca una vez al confirmar la carta.
+- No sigue las posiciones ruidosas de ARTrackedImage a cada fotograma.
+- Se intenta anclaje AR Foundation 6; si no esta disponible, mantiene pose en mundo.
+- Se desactiva el giro automatico en Modo EVALUACION para facilitar la demostracion.
+- El aro del pedestal tiene un efecto de luz suave y no mueve al personaje.
+- La vitrina conserva giro automatico y botones manuales.
+- Se mantiene oculta la ficha cuando no hay carta reconocida.
+
+IMPORTANTE: La figura queda en un lugar del mundo real, encima de la carta EN ESE MOMENTO.
+Al mover el telefono la figura cambia de lugar en la pantalla por perspectiva: eso NO es temblor.
+Si mueves fisicamente la carta, debes volver a reconocerla.
+Para mantener el personaje centrado todo el tiempo en la pantalla, usa MODO VITRINA.
+No ha sido posible ejecutar Unity ni validar ARCore con el dispositivo real desde aqui.

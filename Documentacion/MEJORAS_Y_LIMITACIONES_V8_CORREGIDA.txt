@@ -1,0 +1,7 @@
+Origen de los defectos observados en V8:
+1. 12 referencias en AR, incluidas dos variaciones de un mismo reverso. Se redujeron a 8 referencias sin duplicados.
+2. Modelo enlazado a ARTrackedImage: cada recalculo de pose trasladaba su inclinacion a la criatura. Ahora se toma posicion inicial y se crea un ARAnchor async si el dispositivo lo permite.
+3. Cambio de figura al recibir un candidato momentaneo de otra carta. Ahora la ID queda bloqueada hasta tocar OTRA CARTA.
+4. Error de identificacion persistente de Uber Jackal (099). No existe OCR en AR Foundation. Se incluyen objetivos mas distintivos y seleccion manual del ID como alternativa verificable.
+5. Opciones de rotacion manual a 35 grados y auto giro 8 grados/s opcional.
+Se requiere prueba real en Xiaomi y verificar la calidad de cada target con arcoreimg eval-img. No se afirma funcionamiento infalible.

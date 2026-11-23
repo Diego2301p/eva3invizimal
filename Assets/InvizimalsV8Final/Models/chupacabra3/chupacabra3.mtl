@@ -1,0 +1,7 @@
+newmtl chupacabra3_Material
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 2
+map_Kd chupacabra3_diffuse_1024.png

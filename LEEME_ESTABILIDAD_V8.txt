@@ -1,0 +1,46 @@
+INVIZIMALS RA V8 — MODO EVALUACION ESTABILIZADO
+Unity: 6000.0.74f1 | AR Foundation / ARCore: 6.0.8
+
+OBJETIVO
+Mantener el personaje sobre la carta sin que se desplace por pequenas fluctuaciones
+que ARCore genera al actualizar la ubicacion del marcador.
+
+CAMBIOS DE CODIGO
+- Se ignoran variaciones inferiores a 1,6 cm en el Modo Evaluacion.
+- Se esperan 0,42 segundos de desplazamiento sostenido antes de reposicionar.
+- Se limita a 7 cm/segundo la velocidad de correccion.
+- Se rechazan saltos aislados mayores de 24 cm.
+- Se conserva la orientacion vertical inicial del personaje.
+- Se prefiere continuar con el mismo objetivo de imagen en caso de varias
+  referencias visibles del mismo personaje.
+- Se permite 1,0 segundo de perdida breve del tracking para evitar parpadeos.
+- Modo Vitrina, modelos, fichas, estadisticas y botones se conservan.
+
+COMO ABRIR EL PROYECTO
+1. Extraer la carpeta InvizimalsRA_V8_Evaluacion_Estable en C:\AR\.
+2. Unity Hub > Add project from disk > elegir esa carpeta.
+3. Abrir con Unity 6000.0.74f1 y dejar importar los paquetes.
+4. Si no aparece la escena, menu Invizimals V8 Corregida > 2 - Generar escena limpia y configuracion AR.
+5. Confirmar AR Tracked Image Manager habilitado y 9 referencias de imagen.
+6. En PLAY comprobar que ambos modos y las fichas responden.
+7. Para Android, activar Android en Build Profiles y generar la APK con
+   Invizimals V8 Corregida > 5 - Generar APK Android.
+
+PRUEBA RECOMENDADA
+Colocar una carta plana y mate sobre una mesa iluminada, abrir Modo Evaluacion,
+apuntar el celular a 20-30 cm y comprobar que el modelo no tiembla al mover
+ligeramente el telefono. El modelo debe seguir cerca de la carta, no permanecer
+obligatoriamente en el centro de la pantalla. Modo Vitrina fija el modelo en
+pantalla si eso es lo que se desea al explorar la criatura.
+
+IMPORTANTE
+Se reviso estaticamente el codigo y se comprobo el ZIP, pero este archivo NO
+se ha compilado ni probado en Unity ni en un telefono Android desde este entorno.
+Los filtros reducen el jitter, pero no corrigen una sesion ARCore sin seguimiento
+espacial suficiente ni garantizan precision perfecta. Si la carta se mueve fisicamente
+demasiado, la figura la seguira de manera intencionalmente lenta.
+
+ENTREGA ACADEMICA
+Conservar la carpeta Evidencias y registrar las capturas/videos reales que pide
+el PDF. Generar y guardar la escena y los prefabs dentro de Unity antes de
+comprimir el proyecto definitivo para el profesor.

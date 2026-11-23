@@ -1,0 +1,20 @@
+REVISION ESTATICA — V8 CORREGIDA
+
+[OK] Cuatro cartas 048/081/132/099
+[OK] Ocho referencias activas, sin duplicados
+[OK] Cuatro frentes incluidos
+[OK] Cuatro reversos distintivos incluidos
+[OK] Todas las referencias tienen imagen
+[OK] Cuatro modelos presentes
+[OK] ARAnchorManager en builder
+[OK] Modelo instanciado fuera de target
+[OK] Control otra carta
+[OK] Control corregir ID
+[OK] Giro opcional
+[OK] Metodos del editor con nombres validos
+[OK] Sin scripts antiguos duplicados
+[OK] InvizimalsMotion.cs: delimitadores equilibrados
+[OK] InvizimalsCardController.cs: delimitadores equilibrados
+[OK] InvizimalsV8FinalBuilder.cs: delimitadores equilibrados
+
+Esto NO equivale a compilar ni probar la aplicacion en Unity/Android.

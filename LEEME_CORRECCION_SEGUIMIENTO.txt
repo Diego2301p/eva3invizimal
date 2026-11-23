@@ -1,0 +1,36 @@
+INVIZIMALS RA V8 - CORRECCION SEGUIMIENTO SOBRE CARTA
+Unity 6000.0.74f1 / AR Foundation 6.0.8 / Android ARCore
+
+PROBLEMA DE LA ENTREGA ANTERIOR:
+El modelo se colocaba una sola vez en una pose mundial y, opcionalmente,
+se enlazaba a un ARAnchor. Ese anclaje no sigue una carta fisica que cambia
+de pose o cuyas coordenadas ARCore recalcula; parecia que el personaje
+se movia fuera del papel.
+
+CORRECCION:
+- Modo Evaluacion: el modelo sigue el centro de ARTrackedImage y NO usa
+  anclajes mundiales. Un filtro reduce variaciones pequenas y verifica
+  cambios de posicion demasiado grandes.
+- Recortes Detalle_: el centro del recorte estaba mas abajo del centro de
+  la carta. Se compensa 1,4 cm hacia la parte superior del target.
+- La figura permanece erguida y sin giro automatico en modo Evaluacion.
+- Modo Vitrina: conserva la figura fija en pantalla y los botones de giro.
+- No se modificaron las cuatro criaturas, texturas, fichas ni las fotos.
+
+INSTALACION (PROYECTO COMPLETO):
+1. Extraer el ZIP en C:\AR, en carpeta nueva.
+2. Unity Hub > Add project from disk > InvizimalsRA_V8_SeguimientoCarta.
+3. Abrir con Unity 6000.0.74f1 y esperar a que importe los paquetes.
+4. Si no aparece la escena, usar Invizimals V8 Corregida > 2 - Generar escena
+   limpia y configuracion AR. Si ya existe una escena antigua, regenerarla
+   para guardar los parametros nuevos y comprobar la biblioteca.
+5. Modo Evaluacion > probar tarjeta 081 sobre mesa plana mate con buena luz.
+6. Generar APK desde Invizimals V8 Corregida > 5 - Generar APK Android.
+
+LIMITACIONES Y CONTROL DE CALIDAD:
+- No se ha ejecutado Unity ni un test real en telefono durante la autoria.
+- Un target borroso o confundido puede continuar causando errores de pose.
+- En modo Evaluacion, la figura debe seguir fisicamente la carta: no puede
+  quedar inmovil en pantalla cuando la camara se desplaza.
+- Si persiste, grabar un video corto con carta, personaje y movimiento
+  de camara para separar perdida de tracking de error de orientacion.

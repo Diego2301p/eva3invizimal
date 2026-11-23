@@ -1,0 +1,4 @@
+La variante de reconocimiento del frente de Uber Jackal usa la ilustracion original
+recortada (833 x 725 px), no una imagen inventada. Su medida fisica horizontal
+se calcula como 6.4 cm x 833/960. La fotografia completa sigue disponible
+para las fichas y como target adicional. Nota: sin OCR y sin prueba en Android.

@@ -1,0 +1,25 @@
+COMPARACION CON CLASE4_U3_EVALUACION_MINIPOKEDEX_AR (37 paginas)
+
+Criterio 3.1.1 (20%):
+- AR Foundation, ARCore, XR Plug-in Management y escena AR con AR Session, XR Origin, AR Camera.
+- Android IL2CPP ARM64 OpenGLES3; ejecutar Project Validation y compilar en el PC del alumno.
+
+Criterio 3.1.2 (35%):
+- 4 modelos 3D OBJ/FBX y prefabs con jerarquia, escala para carta; cada prefab tiene base/pedestal adicional.
+- Animacion suave por rotacion automatica del pivote; evita balanceo del modelo.
+- MODO EVALUACION: VER FICHA oculto sin reconocimiento, visible al detectar; FICHA 1 y FICHA 2 del personaje; CERRAR.
+- MODO VITRINA conserva los controles de giro manual y auto; es opcional.
+
+Criterio 3.1.3 (45%):
+- 9 referencias en biblioteca: 4 reversos distintivos + 4 frentes + recorte frontal alternativo Uber Jackal.
+- 4 IDs: 048, 081, 132, 099. Los nombres de library se corresponden con la asociacion del script.
+- El manager ARTrackedImageManager se activa al iniciar y su biblioteca se valida con el menu 6.
+- En modo evaluacion, el mismo personaje se muestra para ambas caras de la carta, sobre su marcador fisico.
+- Al perder seguimiento, la ficha y el modelo se ocultan; al ver otro target, cambia automaticamente.
+
+LIMITACIONES IMPORTANTES:
+- El reconocimiento visual por ARCore no es OCR: los numeros no se verifican por caracteres.
+- La referencia alternativa de Uber Jackal mejora los casos con reflejos, pero no garantiza la deteccion.
+- El modo Vitrina anclado a la pantalla es voluntario y no equivale a sobre la carta.
+- No se dispone de pruebas fisicas de esta nueva edicion; registrar las evidencias autenticas.
+- El PDF pide ampliar un proyecto anterior en Unity 2022.3 y lo presenta como trabajo en grupo; esta entrega mantiene el codigo de V8, usa Unity 6 y debe confirmarse con el profesor si estas condiciones son estrictas.

@@ -1,0 +1,39 @@
+INVIZIMALS RA - V8 ADECUADA A RUBRICA DE MINI POKEDEX AR
+Unity: 6000.0.74f1 | Android ARCore | Adaptacion con 4 Invizimals
+
+IMPORTANTE: esta copia conserva los modelos, fotos y la vitrina V8. No instala parches de versiones antiguas.
+
+1. Extrae el ZIP fuera de OneDrive, por ejemplo C:\AR\InvizimalsRA_Rubrica.
+2. Unity Hub > Projects > Add > Add project from disk. Selecciona la carpeta que contiene Assets, Packages y ProjectSettings.
+3. Abre con Unity 6000.0.74f1. Acepta habilitar el nuevo Input System si lo solicita.
+4. El editor genera automaticamente la escena y los Prefabs al importar los paquetes. Si no sucede, abre:
+   Invizimals V8 Corregida > 2 - Generar escena limpia y configuracion AR
+5. Comprueba la escena InvizimalsV8Final en Assets/InvizimalsV8Final/Scenes.
+6. En el menu Invizimals V8 Corregida usa 6 - Verificar componentes y modelos.
+7. Antes de compilar: Android activo, Google ARCore activado, Project Validation sin errores.
+8. Menu 5 - Generar APK Android, o File > Build Profiles > Android > Build.
+
+MODO EVALUACION (por defecto, para el profesor):
+- Sin carta: solo instrucciones, boton VER FICHA oculto.
+- Enfoca una carta durante la confirmacion inicial: aparece el modelo 3D correspondiente SOBRE la carta.
+- Tanto el frente como el reverso pueden activar el modelo (son referencias distintas del mismo personaje).
+- Despues de detectar aparece VER FICHA. Toca VER FICHA para ver la ficha 1, luego FICHA 2 si deseas mostrar la descripcion.
+- CERRAR FICHA oculta el panel y deja visible el modelo. Al perder la carta se oculta contenido tras una breve tolerancia.
+- Enfoca otra carta para cambiar automaticamente; no se usa CORREGIR ID en este modo.
+
+MODO VITRINA (como la V8 ya probada):
+- Pulsa CAMBIAR A VITRINA: el reverso activa una figura que permanece centrada en la pantalla.
+- Mantiene botones de giro, centrar, auto giro y OTRA CARTA.
+- El frente puede abrir su informacion automaticamente; se puede elegir el ID manualmente si falla ARCore.
+- Esta segunda modalidad es una mejora de exhibicion, pero para seguir exactamente la rubrica usa EVALUACION.
+
+PERSONAJES: Fire Dragon 048, Chupacabras 081, Dark Tigershark 132, Uber Jackal 099.
+Tienen imagenes frontales originales, referencias AR, modelos OBJ/FBX con texturas y fichas por personaje.
+
+LIMITACIONES / PREPARACION DE ENTREGA:
+- Esta version NO ha sido compilada en Unity ni probada en un celular desde este entorno; no se garantiza el resultado hasta pasar las pruebas reales.
+- ARCore NO lee los numeros impresos como OCR: distingue patrones visuales y puede confundir cartas parecidas o con reflejos.
+- No estan incluidas capturas ni videos reales: debes producir las 8 evidencias en Evidencias/GUIA_EVIDENCIAS.txt.
+- El enunciado ejemplifica Pikachu/Zorua y permite otras cartas; confirma con el profesor la adaptacion a Invizimals, el trabajo individual y uso de Unity 6.
+- Para entregar: cierra Unity y comprime TU proyecto ya generado y guardado, incluyendo Assets, Packages, ProjectSettings y evidencias. NO comprimas Library, Temp ni Obj.
+

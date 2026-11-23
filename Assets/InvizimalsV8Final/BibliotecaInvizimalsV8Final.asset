@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: BibliotecaInvizimalsV8Final
+  m_EditorClassIdentifier: 
+  m_GuidLow: 4647059833845900498
+  m_GuidHigh: 16222788145387619205
+  m_DataStore:
+    m_Storage: []
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5432990375579006370
+      m_GuidHigh: 5676077845727363770
+    m_SerializedTextureGuid:
+      m_GuidLow: 10413584576219670973
+      m_GuidHigh: 17735173805856009611
+    m_Size: {x: 0.058333334, y: 0.066}
+    m_SpecifySize: 1
+    m_Name: Detalle_FireDragon
+    m_Texture: {fileID: 2800000, guid: a00f69bd7bff90848b2ddc879cfe1ff6, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 4910412834903386575
+      m_GuidHigh: 15478054761962515098
+    m_SerializedTextureGuid:
+      m_GuidLow: 10945074071971256258
+      m_GuidHigh: 8575793779475920073
+    m_Size: {x: 0.064, y: 0.09}
+    m_SpecifySize: 1
+    m_Name: Frente_FireDragon
+    m_Texture: {fileID: 2800000, guid: 042f57c2b6e197e4c9b4aa8401570377, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5480492641880493686
+      m_GuidHigh: 3544457168845050758
+    m_SerializedTextureGuid:
+      m_GuidLow: 8441005593410830641
+      m_GuidHigh: 4135020649319672424
+    m_Size: {x: 0.058333334, y: 0.066}
+    m_SpecifySize: 1
+    m_Name: Detalle_Chupacabras
+    m_Texture: {fileID: 2800000, guid: 6656813179dd752468aa9a4d5f8b6239, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5053346238146514834
+      m_GuidHigh: 10531473328300774334
+    m_SerializedTextureGuid:
+      m_GuidLow: 8963476855135209309
+      m_GuidHigh: 4636604059441953851
+    m_Size: {x: 0.064, y: 0.09}
+    m_SpecifySize: 1
+    m_Name: Frente_Chupacabras
+    m_Texture: {fileID: 2800000, guid: 8ec5075daab57c643bfc2b87d3865840, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 4822807465006852631
+      m_GuidHigh: 4119909908203577519
+    m_SerializedTextureGuid:
+      m_GuidLow: 16457555672600156846
+      m_GuidHigh: 14235111966119886683
+    m_Size: {x: 0.058333334, y: 0.066}
+    m_SpecifySize: 1
+    m_Name: Detalle_DarkTiger
+    m_Texture: {fileID: 2800000, guid: 388c1aaefbb0e4645bff7c8ee9468dc5, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5200486128585048978
+      m_GuidHigh: 15675396996703185795
+    m_SerializedTextureGuid:
+      m_GuidLow: 17029240706877655527
+      m_GuidHigh: 8366618265293967608
+    m_Size: {x: 0.064, y: 0.09}
+    m_SpecifySize: 1
+    m_Name: Frente_DarkTiger
+    m_Texture: {fileID: 2800000, guid: b81089e70432ec54f85024eafb321c74, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 4965119221196193955
+      m_GuidHigh: 15328954834912923787
+    m_SerializedTextureGuid:
+      m_GuidLow: 2744085532531210129
+      m_GuidHigh: 11497984099750723066
+    m_Size: {x: 0.058333334, y: 0.066}
+    m_SpecifySize: 1
+    m_Name: Detalle_UberJackal
+    m_Texture: {fileID: 2800000, guid: c7cfb791f3402614fa3dbbaa9e0b919f, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5004627229161161545
+      m_GuidHigh: 94227826742770084
+    m_SerializedTextureGuid:
+      m_GuidLow: 3698847819217916442
+      m_GuidHigh: 17530793162867591193
+    m_Size: {x: 0.064, y: 0.09}
+    m_SpecifySize: 1
+    m_Name: Frente_UberJackal
+    m_Texture: {fileID: 2800000, guid: 86b6521af27e335419c891df7fe349f3, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 4829107866626796137
+      m_GuidHigh: 8962638989967620262
+    m_SerializedTextureGuid:
+      m_GuidLow: 12170131284705184306
+      m_GuidHigh: 8824564854917894905
+    m_Size: {x: 0.055533335, y: 0.048333336}
+    m_SpecifySize: 1
+    m_Name: Frente_UberJackal_Arte
+    m_Texture: {fileID: 2800000, guid: 5eb88a32fdeca8e4f912c722fb26777a, type: 3}

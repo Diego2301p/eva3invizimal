@@ -1,0 +1,24 @@
+GUIA DE EVIDENCIAS OBLIGATORIAS - DOCUMENTO DE CLASE 4, PAGINA 28
+No se incluyen archivos falsos. Completa las 8 evidencias con capturas y videos reales antes de entregar.
+
+EV1_escena.png: Unity Hierarchy e Inspector mostrando AR Session, XR Origin, AR Camera, ARTrackedImageManager y Android.
+EV2_biblioteca.png: Inspector de BibliotecaInvizimalsV8Final: 4 frentes + 4 reversos + arte auxiliar de Uber Jackal; sizes y nombres.
+EV3_script.png: InvizimalsCardController.cs / Builder y asociacion nombre -> ID -> modelo/ficha.
+EV4_prefabs.png: Prefabs de cuatro criaturas, jerarquias y escala; captura de Project / Inspector.
+EV5_fichas.png: Canvas con la ficha 1 y 2 de dos criaturas (usa Play/Test para mostrar; indica que son simulacion editor).
+EV6_carta1.mp4: video real con smartphone detectando FIRE DRAGON 048, modelo 3D SOBRE carta, VER FICHA y CERRAR.
+EV7_carta2.mp4: video real con smartphone detectando CHUPACABRAS 081 u otra carta distinta, modelo y ficha correctos.
+EV8_efecto.mp4: video real del efecto de giro suave del modelo o animacion, con carta visible en modo EVALUACION.
+
+MODO PRUEBA: el TEST LOCAL dentro de Unity es util para validar botones, pero NO sustituye videos reales de deteccion en Android.
+
+CRITERIOS DE REVISION FINAL:
+- Sin carta: VER FICHA oculto, fichas cerradas.
+- Carta A: modelo A sobre carta; ficha A; cerrar ficha.
+- Carta B: modelo B sobre carta; ficha B; cerrar ficha.
+- Modelos y texturas visibles sin partes perdidas.
+- Deteccion repetible con iluminacion mate, carta plana, ~15-25 cm.
+- Probar el frente y reverso de cada carta; evitar solapamiento de varias cartas.
+- Capturar Console sin errores y Configuracion Android y ARCore.
+
+NOTA: la rubrica original dice EV1..EV8 de Pikachu/Zorua; esta version es una adaptacion a Invizimals y necesita la autorizacion docente si corresponde.

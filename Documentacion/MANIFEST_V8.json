@@ -1,0 +1,35 @@
+{
+  "version": "V8",
+  "editor": "6000.0.74f1",
+  "cards": {
+    "Fire Dragon": "048",
+    "Chupacabras": "081",
+    "Dark Tigershark": "132",
+    "Uber Jackal": "099"
+  },
+  "image_targets": [
+    "Detalle_Chupacabras",
+    "Detalle_DarkTiger",
+    "Detalle_FireDragon",
+    "Detalle_UberJackal",
+    "Frente_Chupacabras",
+    "Frente_DarkTiger",
+    "Frente_FireDragon",
+    "Frente_UberJackal",
+    "Reverso_Chupacabras",
+    "Reverso_DarkTiger",
+    "Reverso_FireDragon",
+    "Reverso_UberJackal"
+  ],
+  "features": [
+    "target_pose_follow_with_smoothing",
+    "target_crop_center_compensation",
+    "large_jump_confirmation",
+    "contextual_cards",
+    "rotation_controls",
+    "evaluation_and_showcase_modes"
+  ],
+  "caveat": "Static source review only; requires Unity import and Android device testing.",
+  "version_corregida": "V8 Corregida",
+  "revision": "V8 seguimiento de carta y compensacion centro de recorte"
+}
